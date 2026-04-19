@@ -221,15 +221,39 @@ cp -r superpowers-zh/skills /your/project/.claw/skills       # Claw Code（Rust 
 
 ---
 
+## 🌟 相关项目生态
+
+**五个项目组合使用，覆盖 AI 编程从"方法论 → 角色 → 协作 → 教程 → 安全"的完整链路。**
+
+| 项目 | 定位 | ⭐ | 一句话 |
+|------|------|:---:|-------|
+| **[superpowers-zh](https://github.com/jnMetaCode/superpowers-zh)**（本项目） | 🧠 工作方法论 | ![](https://img.shields.io/github/stars/jnMetaCode/superpowers-zh?style=flat&label=) | 20 个 skills 教 AI **怎么干活** |
+| **[agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh)** | 🎭 专家角色库 | ![](https://img.shields.io/github/stars/jnMetaCode/agency-agents-zh?style=flat&label=) | **211 个即插即用 AI 专家**，含 46 中国原创（小红书/抖音/微信/飞书/钉钉） |
+| **[agency-orchestrator](https://github.com/jnMetaCode/agency-orchestrator)** | 🚀 编排引擎 | ![](https://img.shields.io/github/stars/jnMetaCode/agency-orchestrator?style=flat&label=) | **一句话调度 211 专家自动协作，几分钟出完整方案** |
+| **[ai-coding-guide](https://github.com/jnMetaCode/ai-coding-guide)** | 📖 实战教程 | ![](https://img.shields.io/github/stars/jnMetaCode/ai-coding-guide?style=flat&label=) | 66 个 Claude Code 技巧 + 9 款工具最佳实践 + 可复制配置模板 |
+| **[shellward](https://github.com/jnMetaCode/shellward)** | 🛡️ 安全中间件 | ![](https://img.shields.io/github/stars/jnMetaCode/shellward?style=flat&label=) | **8 层防御 + DLP 数据流**，注入检测 + MCP Server，零依赖 |
+
+---
+
+### 🔥 重点推荐：[agency-orchestrator](https://github.com/jnMetaCode/agency-orchestrator) — 一句话调度 211 个 AI 专家协作，几分钟交付完整方案
+
+以前写个方案：你当指挥官，把 AI 轮流扮演 5 个角色，复制粘贴 10 次，1 小时没了。
+
+**现在：** 丢一句话进去 `"做一个电商退款流程"`，**产品 → 架构 → 安全 → 测试 → DBA 自动接力**，几分钟完整方案落地。
+
+- 🎭 **211+ 专家角色**（含 46 个中国市场原创：小红书 / 抖音 / 微信 / 飞书 / 钉钉）
+- 🧩 **零代码 YAML**，一行 prompt 就能跑
+- 💰 **9 家 LLM 可选**（DeepSeek / Claude / OpenAI / Ollama 等，**6 家免费**）
+- 🔗 **与 superpowers-zh 互补**：本项目管"**怎么做**"（方法论），orchestrator 管"**谁来做**"（角色协作）
+
+👉 **[立即体验 agency-orchestrator →](https://github.com/jnMetaCode/agency-orchestrator)**
+
+---
+
 ## 致谢
 
 - 原始英文版：[obra/superpowers](https://github.com/obra/superpowers)（MIT 协议）
 - 感谢 [@obra](https://github.com/obra) 创建了这个优秀的项目
-- 姊妹项目：
-  - [ai-coding-guide](https://github.com/jnMetaCode/ai-coding-guide) — AI 编程工具实战指南 — 66 个 Claude Code 技巧 + 9 款工具最佳实践 + 可复制配置模板
-  - [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) — 187 个专业角色，让 AI 变成安全工程师、DBA、产品经理等
-  - [agency-orchestrator](https://github.com/jnMetaCode/agency-orchestrator) — 多智能体编排引擎 — 用 YAML 编排 187 个角色协作，支持 DeepSeek/Claude/OpenAI/Ollama，零代码
-  - [shellward](https://github.com/jnMetaCode/shellward) — AI 智能体安全中间件 — 注入检测、数据防泄露、命令安全、零依赖、MCP Server
 
 ---
 
